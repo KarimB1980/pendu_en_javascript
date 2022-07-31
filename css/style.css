@@ -129,6 +129,6 @@ input:hover {
 #toucheA, #toucheB, #toucheC, #toucheD, #toucheE, #toucheF, #toucheG, #toucheH, #toucheI, #toucheJ, #toucheK, #toucheL, #toucheM, #toucheN, #toucheO, #toucheP, #toucheQ, #toucheR, #toucheS, #toucheT, #toucheU, #toucheV, #toucheW, #toucheX, #toucheY, #toucheZ, #NouvellePartie {
     border: inset 3px blueviolet;
     color: blue;
-    border-radius: 5px;
+    border-radius: 20px;
     font-size: 80px;
 } 
