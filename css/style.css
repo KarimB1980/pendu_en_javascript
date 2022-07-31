@@ -61,7 +61,7 @@ img {
 
 h1 {
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
     margin: 10px;
 }
 
@@ -69,7 +69,7 @@ h2 {
     background-color: white;
     color: blue;
     border-radius: 20px;
-    font-size: 25px;
+    font-size: 40px;
     border-color: blueviolet;
     border-width: 5px;
     border-style: inset;
@@ -130,4 +130,5 @@ input:hover {
     border: inset 3px blueviolet;
     color: blue;
     border-radius: 5px;
+    font-size: 40px;
 } 
