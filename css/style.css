@@ -1,0 +1,130 @@
+html {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../images/carte-galaxie-001.jpg");
+    font-family: "Lato";
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    max-width: 30%;
+    border-radius: 20px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px pink;
+    border-color: blueviolet;
+    border-width: 5px;
+    border-style: inset;
+}
+
+#jeu {
+    max-width: 100%;
+    align-items: center;
+}
+
+#clavier {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 5px pink;
+    border-radius: 20px;
+    border-color: blueviolet;
+    border-width: 5px;
+    border-style: inset;
+}
+
+#titre {
+    background-color: white;
+    color: blue;
+    border-radius: 20px;
+    border-color: blueviolet;
+    border-width: 5px;
+    border-style: double;
+    box-shadow: 5px 5px 5px pink;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin: 10px;
+}
+
+h2 {
+    background-color: white;
+    color: blue;
+    border-radius: 20px;
+    font-size: 25px;
+    border-color: blueviolet;
+    border-width: 5px;
+    border-style: inset;
+    box-shadow: 5px 5px 5px pink;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    height: 100px;
+
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    color: blue;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 25px;
+    border-color: blueviolet;
+    border-width: 5px;
+    border-style: inset;
+    box-shadow: 5px 5px 5px pink;
+}
+
+input:hover {
+    cursor: pointer;
+}
+
+#interface {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#MotCache {
+    width: 50%;
+    text-align:center;
+    font-size: 40px;
+    box-shadow: 5px 5px 5px pink;
+    background-color: aquamarine;
+    color: blue;
+    border-color: blueviolet;
+    border-width: 5px;
+    border-style: inset;
+    border-radius: 20px;
+}
+
+#toucheA, #toucheB, #toucheC, #toucheD, #toucheE, #toucheF, #toucheG, #toucheH, #toucheI, #toucheJ, #toucheK, #toucheL, #toucheM, #toucheN, #toucheO, #toucheP, #toucheQ, #toucheR, #toucheS, #toucheT, #toucheU, #toucheV, #toucheW, #toucheX, #toucheY, #toucheZ, #NouvellePartie {
+    border: inset 3px blueviolet;
+    color: blue;
+    border-radius: 5px;
+} 
