@@ -2,10 +2,11 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 body {
-    max-width: 700px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,7 +21,7 @@ section {
 }
 
 img {
-    max-width: 30%;
+    max-width: 100%;
     border-radius: 20px;
     margin-top: 10px;
     box-shadow: 5px 5px 5px pink;
@@ -44,6 +45,7 @@ img {
     border-color: blueviolet;
     border-width: 5px;
     border-style: inset;
+    width: 100%;
 }
 
 #titre {
@@ -108,10 +110,11 @@ input:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 #MotCache {
-    width: 50%;
+    width: 100%;
     text-align:center;
     font-size: 40px;
     box-shadow: 5px 5px 5px pink;
