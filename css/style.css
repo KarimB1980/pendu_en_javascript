@@ -131,4 +131,11 @@ input:hover {
     color: blue;
     border-radius: 20px;
     font-size: 80px;
+    width: 100px;
+    height: 100px;
 } 
+
+#NouvellePartie {
+    width: 100%;
+    box-shadow: 5px 5px 5px pink;
+}
