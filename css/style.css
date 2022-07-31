@@ -2,11 +2,11 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    width: 98%;
 }
 
 body {
-    width: 100%;
+    width: 95%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,8 +20,18 @@ section {
     align-items: center;
 }
 
+#boutons {
+    display: flex;
+    flex-direction: column;
+}
+
+#imageBoutons {
+    display: flex;
+    flex-direction: row;
+}
+
 img {
-    max-width: 100%;
+    max-width: 98%;
     border-radius: 20px;
     margin-top: 10px;
     box-shadow: 5px 5px 5px pink;
@@ -31,7 +41,7 @@ img {
 }
 
 #jeu {
-    max-width: 100%;
+    max-width: 98%;
     align-items: center;
 }
 
@@ -56,13 +66,14 @@ img {
     border-width: 5px;
     border-style: double;
     box-shadow: 5px 5px 5px pink;
-    width: 100%;
+    width: 98%;
 }
 
 h1 {
     text-align: center;
     font-size: 60px;
     margin: 10px;
+    width: 98%;
 }
 
 h2 {
@@ -79,6 +90,7 @@ h2 {
     margin-bottom: 10px;
     text-align: center;
     height: 100px;
+    width: 98%;
 
 }
 
@@ -110,11 +122,11 @@ input:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    width: 98%;
 }
 
 #MotCache {
-    width: 100%;
+    width: 98%;
     text-align:center;
     font-size: 80px;
     box-shadow: 5px 5px 5px pink;
@@ -136,6 +148,6 @@ input:hover {
 } 
 
 #NouvellePartie {
-    width: 100%;
+    width: 98%;
     box-shadow: 5px 5px 5px pink;
 }

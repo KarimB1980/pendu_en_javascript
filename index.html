@@ -21,50 +21,56 @@
 
 			<form name="interface" id="interface">
 				<label for="MotCache">Mot mystère</label>
-				<input id="MotCache" type="TEXT" name="MotCache" value="" disabled="disabled">
-				<img id="imagependu" src="images/dessin-jeu-pendu.gif">
+				<input id="MotCache" type="TEXT" name="MotCache" value="" disabled="disabled">			
 			</form>
 
-			<div>
-				<h2>Cliquez sur le bouton "Nouvelle partie" pour commencer.</h2>
-			</div>
+			<div id="imageBoutons">
+				<div id="image">
+					<img id="imagependu" src="images/dessin-jeu-pendu.gif">
+				</div>
+				<div id="boutons">
+					<div>
+						<h2>Cliquez sur le bouton "Nouvelle partie" pour commencer.</h2>
+					</div>
 
-			<div id="clavier">
-				<div class="ligne">
-					<input id="toucheA" type="button" value="A" onclick=A() disabled="disabled">
-					<input id="toucheZ" type="button" value="Z" onclick=Z() disabled="disabled";>
-					<input id="toucheE" type="button" value="E" onclick=E() disabled="disabled";>
-					<input id="toucheR" type="button" value="R" onclick=R() disabled="disabled";>
-					<input id="toucheT" type="button" value="T" onclick=T() disabled="disabled";>
-					<input id="toucheY" type="button" value="Y" onclick=Y() disabled="disabled";>
-					<input id="toucheU" type="button" value="U" onclick=U() disabled="disabled";>
-					<input id="toucheI" type="button" value="I" onclick=I() disabled="disabled";>
-					<input id="toucheO" type="button" value="O" onclick=O() disabled="disabled";>
-					<input id="toucheP" type="button" value="P" onclick=P() disabled="disabled";>
+					<div id="clavier">
+						<div class="ligne">
+							<input id="toucheA" type="button" value="A" onclick=A() disabled="disabled">
+							<input id="toucheZ" type="button" value="Z" onclick=Z() disabled="disabled";>
+							<input id="toucheE" type="button" value="E" onclick=E() disabled="disabled";>
+							<input id="toucheR" type="button" value="R" onclick=R() disabled="disabled";>
+							<input id="toucheT" type="button" value="T" onclick=T() disabled="disabled";>
+							<input id="toucheY" type="button" value="Y" onclick=Y() disabled="disabled";>
+							<input id="toucheU" type="button" value="U" onclick=U() disabled="disabled";>
+							<input id="toucheI" type="button" value="I" onclick=I() disabled="disabled";>
+							<input id="toucheO" type="button" value="O" onclick=O() disabled="disabled";>
+							<input id="toucheP" type="button" value="P" onclick=P() disabled="disabled";>
+						</div>
+						<div class="ligne">
+							<input id="toucheQ" type="button" value="Q" onclick=Q() disabled="disabled";>
+							<input id="toucheS" type="button" value="S" onclick=S() disabled="disabled";>
+							<input id="toucheD" type="button" value="D" onclick=D() disabled="disabled";>
+							<input id="toucheF" type="button" value="F" onclick=F() disabled="disabled";>
+							<input id="toucheG" type="button" value="G" onclick=G() disabled="disabled";>
+							<input id="toucheH" type="button" value="H" onclick=H() disabled="disabled";>
+							<input id="toucheJ" type="button" value="J" onclick=J() disabled="disabled";>
+							<input id="toucheK" type="button" value="K" onclick=K() disabled="disabled";>
+							<input id="toucheL" type="button" value="L" onclick=L() disabled="disabled";>
+							<input id="toucheM" type="button" value="M" onclick=M() disabled="disabled";>
+						</div>
+						<div class="ligne">
+							<input id="toucheW" type="button" value="W" onclick=W() disabled="disabled";>
+							<input id="toucheX" type="button" value="X" onclick=X() disabled="disabled";>
+							<input id="toucheC" type="button" value="C" onclick=C() disabled="disabled";>
+							<input id="toucheV" type="button" value="V" onclick=V() disabled="disabled";>
+							<input id="toucheB" type="button" value="B" onclick=B() disabled="disabled";>
+							<input id="toucheN" type="button" value="N" onclick=N() disabled="disabled";>
+						</div>
+					</div>
+					<div id="NouvellePart">
+						<input id="NouvellePartie" type="BUTTON" value="Nouvelle partie" onclick="demarrage()";>
+					</div>
 				</div>
-				<div class="ligne">
-					<input id="toucheQ" type="button" value="Q" onclick=Q() disabled="disabled";>
-					<input id="toucheS" type="button" value="S" onclick=S() disabled="disabled";>
-					<input id="toucheD" type="button" value="D" onclick=D() disabled="disabled";>
-					<input id="toucheF" type="button" value="F" onclick=F() disabled="disabled";>
-					<input id="toucheG" type="button" value="G" onclick=G() disabled="disabled";>
-					<input id="toucheH" type="button" value="H" onclick=H() disabled="disabled";>
-					<input id="toucheJ" type="button" value="J" onclick=J() disabled="disabled";>
-					<input id="toucheK" type="button" value="K" onclick=K() disabled="disabled";>
-					<input id="toucheL" type="button" value="L" onclick=L() disabled="disabled";>
-					<input id="toucheM" type="button" value="M" onclick=M() disabled="disabled";>
-				</div>
-				<div class="ligne">
-					<input id="toucheW" type="button" value="W" onclick=W() disabled="disabled";>
-					<input id="toucheX" type="button" value="X" onclick=X() disabled="disabled";>
-					<input id="toucheC" type="button" value="C" onclick=C() disabled="disabled";>
-					<input id="toucheV" type="button" value="V" onclick=V() disabled="disabled";>
-					<input id="toucheB" type="button" value="B" onclick=B() disabled="disabled";>
-					<input id="toucheN" type="button" value="N" onclick=N() disabled="disabled";>
-				</div>
-			</div>
-			<div id="NouvellePart">
-				<input id="NouvellePartie" type="BUTTON" value="Nouvelle partie" onclick="demarrage()";>
 			</div>
 		</section>
 	</body>
