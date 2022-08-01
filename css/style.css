@@ -177,3 +177,93 @@ input:hover {
 #MotCache:hover {
     cursor: default;
 }
+
+@media (min-width: 767.5px) and (max-width: 991.5px) {
+
+    #image {
+        max-width: 30%;
+        border-radius: 20px;
+    }
+
+    img {
+        border-radius: 10px;
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    label {
+        font-size: 30px;
+    }
+
+    input:hover {
+        cursor: pointer;
+    }
+
+    #MotCache {
+        font-size: 50px;
+    }
+
+    #toucheA, #toucheB, #toucheC, #toucheD, #toucheE, #toucheF, #toucheG, #toucheH, #toucheI, #toucheJ, #toucheK, #toucheL, #toucheM, #toucheN, #toucheO, #toucheP, #toucheQ, #toucheR, #toucheS, #toucheT, #toucheU, #toucheV, #toucheW, #toucheX, #toucheY, #toucheZ, #NouvellePartie {
+        font-size: 40px;
+        width: 70px;
+        height: 70px;
+    } 
+
+    #NouvellePartie {
+        width: 100%;
+        box-shadow: 5px 5px 5px pink;
+        border: inset 5px blueviolet;
+    }
+}
+
+@media (max-width: 767.5px) {
+
+    #image {
+        max-width: 30%;
+        border-radius: 20px;
+    }
+
+    img {
+        border-radius: 10px;
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    label {
+        font-size: 20px;
+    }
+
+    input:hover {
+        cursor: pointer;
+    }
+
+    #MotCache {
+        font-size: 25px;
+    }
+
+    #toucheA, #toucheB, #toucheC, #toucheD, #toucheE, #toucheF, #toucheG, #toucheH, #toucheI, #toucheJ, #toucheK, #toucheL, #toucheM, #toucheN, #toucheO, #toucheP, #toucheQ, #toucheR, #toucheS, #toucheT, #toucheU, #toucheV, #toucheW, #toucheX, #toucheY, #toucheZ, #NouvellePartie {
+        font-size: 20px;
+        width: 45px;
+        height: 45px;
+    } 
+
+    #NouvellePartie {
+        width: 100%;
+        box-shadow: 5px 5px 5px pink;
+        border: inset 5px blueviolet;
+    }
+}
