@@ -31,6 +31,9 @@ section {
 }
 
 #image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     max-width: 100%;
     border-radius: 20px;
     margin-top: 10px;
@@ -39,6 +42,7 @@ section {
     border-color: blueviolet;
     border-width: 5px;
     border-style: inset;
+    background-color: blue;
 }
 
 img {
@@ -154,8 +158,22 @@ input:hover {
     height: 90px;
 } 
 
+#toucheA:hover, #toucheB:hover, #toucheC:hover, #toucheD:hover, #toucheE:hover, #toucheF:hover, #toucheG:hover, #toucheH:hover, #toucheI:hover, #toucheJ:hover, #toucheK:hover, #toucheL:hover, #toucheM:hover, #toucheN:hover, #toucheO:hover, #toucheP:hover, #toucheQ:hover, #toucheR:hover, #toucheS:hover, #toucheT:hover, #toucheU:hover, #toucheV:hover, #toucheW:hover, #toucheX:hover, #toucheY:hover, #toucheZ:hover {
+    transition: all 0.1s ease-in-out;
+    transform: scale(1.05);
+}
+
 #NouvellePartie {
     /*max-width: 100%;*/
     width: 100%;
     box-shadow: 5px 5px 5px pink;
+}
+
+#NouvellePartie:hover {
+    transition: all 0.1s ease-in-out;
+    transform: scale(1.01);
+}
+
+#MotCache:hover {
+    cursor: default;
 }
