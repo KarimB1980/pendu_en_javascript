@@ -136,7 +136,7 @@ input:hover {
 }
 
 #MotCache {
-    max-width: 100%;
+    max-width: 98%;
     text-align:center;
     font-size: 80px;
     box-shadow: 5px 5px 5px pink;
@@ -166,6 +166,8 @@ input:hover {
     /*max-width: 100%;*/
     width: 100%;
     box-shadow: 5px 5px 5px pink;
+    /*padding-top: 50px;*/
+    height: 120px;
 }
 
 #NouvellePartie:hover {
