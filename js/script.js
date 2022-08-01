@@ -26,6 +26,7 @@ function demarrage() {
     
     chance = `Cliquez sur une lettre pour faire votre choix.`;
     document.querySelector('h2').textContent = chance;
+    document.querySelector('h2').style.color = "green";
     document.interface.MotCache.value = motMystere;
     document.getElementById("imagependu").src = "images/dessin-jeu-pendu.gif";
 
@@ -51,10 +52,12 @@ function lettreTestee() {
         if (essai>1) {
             chance = `Bon choix de lettre ! vous avez encore droit à ${essai} erreurs.`;
             document.querySelector('h2').textContent = chance;
+            document.querySelector('h2').style.color = "green";
         }
         else {
             chance = `Bon choix de lettre ! vous avez encore droit à ${essai} erreur.`;
             document.querySelector('h2').textContent = chance;
+            document.querySelector('h2').style.color = "green";
         }
     }
     else {
@@ -64,10 +67,12 @@ function lettreTestee() {
         if (essai>1) {
             chance = `Mauvaise lettre ! vous avez encore droit à ${essai} erreurs.`;
             document.querySelector('h2').textContent = chance;
+            document.querySelector('h2').style.color = "red";
         }
         else {
             chance = `Mauvaise lettre ! vous avez encore droit à ${essai} erreur.`;
             document.querySelector('h2').textContent = chance;
+            document.querySelector('h2').style.color = "red";
         }
         coupJoue++;
     }
@@ -89,6 +94,7 @@ function rejouer() {
         if (tableauLettreMotMystere.join() == tableauEtoileMotMystere.join()) {
             chance = `Vous avez gagné ! Rejouez en cliquant sur le bouton "Nouvelle partie".`;
             document.querySelector('h2').textContent = chance;
+            document.querySelector('h2').style.color = "green";
             clavierInactif();
         }
     }
