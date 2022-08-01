@@ -2,11 +2,11 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 98%;
+    max-width: 100%;
 }
 
 body {
-    width: 98%;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,32 +30,38 @@ section {
     flex-direction: row;
 }
 
-img {
-    max-width: 98%;
+#image {
+    max-width: 100%;
     border-radius: 20px;
     margin-top: 10px;
+    margin-right: 10px;
     box-shadow: 5px 5px 5px pink;
     border-color: blueviolet;
     border-width: 5px;
     border-style: inset;
 }
 
+img {
+    border-radius: 20px;
+}
+
 #jeu {
-    max-width: 98%;
+    max-width: 100%;
     align-items: center;
 }
 
 #clavier {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
     margin-bottom: 10px;
     box-shadow: 5px 5px 5px pink;
     border-radius: 20px;
     border-color: blueviolet;
     border-width: 5px;
     border-style: inset;
-    width: 100%;
+    max-width: 100%;
 }
 
 #titre {
@@ -66,14 +72,14 @@ img {
     border-width: 5px;
     border-style: double;
     box-shadow: 5px 5px 5px pink;
-    width: 98%;
+    max-width: 100%;
 }
 
 h1 {
     text-align: center;
     font-size: 60px;
     margin: 10px;
-    width: 98%;
+    max-width: 100%;
 }
 
 h2 {
@@ -90,7 +96,7 @@ h2 {
     margin-bottom: 10px;
     text-align: center;
     height: 100px;
-    width: 98%;
+    max-width: 100%;
 
 }
 
@@ -98,6 +104,7 @@ label {
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 100%;
     background-color: white;
     color: blue;
     border-radius: 20px;
@@ -122,11 +129,11 @@ input:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 98%;
+    max-width: 100%;
 }
 
 #MotCache {
-    width: 98%;
+    max-width: 100%;
     text-align:center;
     font-size: 80px;
     box-shadow: 5px 5px 5px pink;
@@ -148,6 +155,7 @@ input:hover {
 } 
 
 #NouvellePartie {
-    width: 98%;
+    /*max-width: 100%;*/
+    width: 100%;
     box-shadow: 5px 5px 5px pink;
 }
