@@ -4,26 +4,27 @@ var motAtrouver = "";
 var lettreJouee = new Array(26);
 var coupJoue = 0;
 var essai = 0;
+var x = 0;
+var motMystere = "";
+var chance = "";
 var imagePendu = new Array(10);
 var tableauLettreMotMystere = new Array(motAtrouver.length);
 var tableauEtoileMotMystere = new Array(motAtrouver.length);
 
 function demarrage() {
-    var hazard = Math.floor(Math.random()*myArray.length);
+    var hazard = Math.floor(Math.random() * myArray.length);
     motAtrouver = myArray[hazard];
     coupJoue = 0;
     essai = 10;
-    var x = 0;
     for (x = 0; x < motAtrouver.length; x++) {
         tableauLettreMotMystere[x] = motAtrouver.charAt(x);
         tableauEtoileMotMystere[x] = "* ";
     }
 
-    motMystere = "";
     for (x = 0; x < motAtrouver.length; x++) {
         motMystere = motMystere + tableauEtoileMotMystere[x];
     }
-    
+
     chance = `Cliquez sur une lettre pour faire votre choix.`;
     document.querySelector('h2').textContent = chance;
     document.querySelector('h2').style.color = "green";
