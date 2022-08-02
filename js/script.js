@@ -12,6 +12,8 @@ var tableauLettreMotMystere = new Array(motAtrouver.length);
 var tableauEtoileMotMystere = new Array(motAtrouver.length);
 
 function demarrage() {
+    motMystere = "";
+    chance = "";
     var hazard = Math.floor(Math.random() * myArray.length);
     motAtrouver = myArray[hazard];
     coupJoue = 0;
