@@ -142,8 +142,6 @@ input:hover {
     color: blue;
     border-radius: 20px;
     font-size: 80px;
-    /*width: 90px;
-    height: 90px;*/
     width: 15%;
 } 
 
@@ -199,8 +197,7 @@ input:hover {
 
     #toucheA, #toucheB, #toucheC, #toucheD, #toucheE, #toucheF, #toucheG, #toucheH, #toucheI, #toucheJ, #toucheK, #toucheL, #toucheM, #toucheN, #toucheO, #toucheP, #toucheQ, #toucheR, #toucheS, #toucheT, #toucheU, #toucheV, #toucheW, #toucheX, #toucheY, #toucheZ, #NouvellePartie {
         font-size: 40px;
-        width: 70px;
-        height: 70px;
+        width: 15%;
     } 
 
     #NouvellePartie {
@@ -239,8 +236,7 @@ input:hover {
 
     #toucheA, #toucheB, #toucheC, #toucheD, #toucheE, #toucheF, #toucheG, #toucheH, #toucheI, #toucheJ, #toucheK, #toucheL, #toucheM, #toucheN, #toucheO, #toucheP, #toucheQ, #toucheR, #toucheS, #toucheT, #toucheU, #toucheV, #toucheW, #toucheX, #toucheY, #toucheZ, #NouvellePartie {
         font-size: 20px;
-        width: 45px;
-        height: 45px;
+        width: 22%;
     } 
 
     #NouvellePartie {
@@ -280,8 +276,7 @@ input:hover {
 
     #toucheA, #toucheB, #toucheC, #toucheD, #toucheE, #toucheF, #toucheG, #toucheH, #toucheI, #toucheJ, #toucheK, #toucheL, #toucheM, #toucheN, #toucheO, #toucheP, #toucheQ, #toucheR, #toucheS, #toucheT, #toucheU, #toucheV, #toucheW, #toucheX, #toucheY, #toucheZ, #NouvellePartie {
         font-size: 15px;
-        width: 35px;
-        height: 35px;
+        width: 15%;
     } 
 
     #NouvellePartie {
@@ -321,8 +316,7 @@ input:hover {
 
     #toucheA, #toucheB, #toucheC, #toucheD, #toucheE, #toucheF, #toucheG, #toucheH, #toucheI, #toucheJ, #toucheK, #toucheL, #toucheM, #toucheN, #toucheO, #toucheP, #toucheQ, #toucheR, #toucheS, #toucheT, #toucheU, #toucheV, #toucheW, #toucheX, #toucheY, #toucheZ, #NouvellePartie {
         font-size: 35px;
-        width: 55px;
-        height: 55px;
+        width: 7.5%;
     } 
 
     #NouvellePartie {
