@@ -142,8 +142,9 @@ input:hover {
     color: blue;
     border-radius: 20px;
     font-size: 80px;
-    width: 90px;
-    height: 90px;
+    /*width: 90px;
+    height: 90px;*/
+    width: 15%;
 } 
 
 #toucheA:hover, #toucheB:hover, #toucheC:hover, #toucheD:hover, #toucheE:hover, #toucheF:hover, #toucheG:hover, #toucheH:hover, #toucheI:hover, #toucheJ:hover, #toucheK:hover, #toucheL:hover, #toucheM:hover, #toucheN:hover, #toucheO:hover, #toucheP:hover, #toucheQ:hover, #toucheR:hover, #toucheS:hover, #toucheT:hover, #toucheU:hover, #toucheV:hover, #toucheW:hover, #toucheX:hover, #toucheY:hover, #toucheZ:hover {
