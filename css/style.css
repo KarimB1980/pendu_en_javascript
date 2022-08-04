@@ -166,7 +166,7 @@ input:hover {
     border: inset 3px blueviolet;
     color: blue;
     border-radius: 20px;
-    font-size: 80px;
+    font-size: 40px;
     width: 15%;
 } 
 
@@ -312,7 +312,7 @@ input:hover {
 }
 
 
-@media (orientation: landscape) {
+@media (orientation: landscape) and (max-width: 1200px) {
     #image {
         max-width: 15%;
         border-radius: 20px;
@@ -324,11 +324,11 @@ input:hover {
     }
 
     h1 {
-        font-size: 35px;
+        font-size: 25px;
     }
 
     h2 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     input:hover {
@@ -340,7 +340,7 @@ input:hover {
     }
 
     #toucheA, #toucheB, #toucheC, #toucheD, #toucheE, #toucheF, #toucheG, #toucheH, #toucheI, #toucheJ, #toucheK, #toucheL, #toucheM, #toucheN, #toucheO, #toucheP, #toucheQ, #toucheR, #toucheS, #toucheT, #toucheU, #toucheV, #toucheW, #toucheX, #toucheY, #toucheZ, #NouvellePartie {
-        font-size: 30px;
+        font-size: 20px;
         width: 7.5%;
     } 
 
@@ -349,6 +349,6 @@ input:hover {
         height: 100%;
         box-shadow: 5px 5px 5px pink;
         border: inset 5px blueviolet;
-        font-size: 30px;
+        font-size: 20px;
     }
 }
