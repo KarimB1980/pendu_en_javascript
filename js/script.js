@@ -106,7 +106,7 @@ function rejouer() {
             document.querySelector('h2').style.color = "green";
             document.getElementById("imagependu").src = "images/bravo.gif";
             dom = document.getElementById('image');
-            dom.style.backgroundImage = 'linear-gradient(#FFFF00, #90EE90)';
+            dom.style.backgroundImage = 'linear-gradient(#000000, #000000)';
             clavierInactif();
         }
     }
