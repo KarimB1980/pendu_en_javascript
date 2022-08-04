@@ -98,7 +98,7 @@ function rejouer() {
             chance = `Vous avez gagné ! Rejouez en cliquant sur le bouton "Nouvelle partie".`;
             document.querySelector('h2').textContent = chance;
             document.querySelector('h2').style.color = "green";
-            document.getElementById("imagependu").src = "bravo.gif";     
+            document.getElementById("imagependu").src = "images/bravo.gif";   
             clavierInactif();
         }
     }
