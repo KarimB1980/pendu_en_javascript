@@ -7,6 +7,7 @@ var essai = 0;
 var x = 0;
 var motMystere = "";
 var chance = "";
+var dom = "";
 var imagePendu = new Array(10);
 var tableauLettreMotMystere = new Array(motAtrouver.length);
 var tableauEtoileMotMystere = new Array(motAtrouver.length);
@@ -32,6 +33,8 @@ function demarrage() {
     document.querySelector('h2').style.color = "green";
     document.interface.MotCache.value = motMystere;
     document.getElementById("imagependu").src = "images/dessin-jeu-pendu.png";
+    dom = document.getElementById('image');
+    dom.style.backgroundImage = 'linear-gradient(#FFFF00, #FFC0CB)';
 
     clavierActif();
 }
@@ -86,6 +89,9 @@ function rejouer() {
     if (coupJoue == 10) {
         chance = `Vous avez perdu ! Réessayez en cliquant sur le bouton "Nouvelle partie".`;
         document.querySelector('h2').textContent = chance;
+        dom = document.getElementById('image');
+        dom.style.backgroundImage = 'linear-gradient(#FF0000, #8B0000)';
+        console.log(dom.style.backgroundImage);
         clavierInactif();
         motMystere = "";
         for (var x = 0; x < motAtrouver.length; x++) {
@@ -98,7 +104,9 @@ function rejouer() {
             chance = `Vous avez gagné ! Rejouez en cliquant sur le bouton "Nouvelle partie".`;
             document.querySelector('h2').textContent = chance;
             document.querySelector('h2').style.color = "green";
-            document.getElementById("imagependu").src = "images/bravo.gif";   
+            document.getElementById("imagependu").src = "images/bravo.gif";
+            dom = document.getElementById('image');
+            dom.style.backgroundImage = 'linear-gradient(#FFFF00, #90EE90)';
             clavierInactif();
         }
     }
