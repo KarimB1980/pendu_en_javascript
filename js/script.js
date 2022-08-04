@@ -31,7 +31,7 @@ function demarrage() {
     document.querySelector('h2').textContent = chance;
     document.querySelector('h2').style.color = "green";
     document.interface.MotCache.value = motMystere;
-    document.getElementById("imagependu").src = "images/dessin-jeu-pendu.gif";
+    document.getElementById("imagependu").src = "images/dessin-jeu-pendu.png";
 
     clavierActif();
 }
@@ -64,7 +64,7 @@ function lettreTestee() {
         }
     }
     else {
-        imagePendu[`${coupJoue}`] = `images/dessin-jeu-pendu${coupJoue}.gif`;
+        imagePendu[`${coupJoue}`] = `images/dessin-jeu-pendu${coupJoue}.png`;
         document.getElementById("imagependu").src = imagePendu[coupJoue];     
         essai = 9 - coupJoue;
         if (essai>1) {
@@ -98,7 +98,7 @@ function rejouer() {
             chance = `Vous avez gagné ! Rejouez en cliquant sur le bouton "Nouvelle partie".`;
             document.querySelector('h2').textContent = chance;
             document.querySelector('h2').style.color = "green";
-            document.getElementById("imagependu").src = "images/bravo.gif";     
+            document.getElementById("imagependu").src = "bravo.gif";     
             clavierInactif();
         }
     }
