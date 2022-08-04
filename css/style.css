@@ -314,7 +314,7 @@ input:hover {
 
 @media (orientation: landscape) {
     #image {
-        max-width: 30%;
+        max-width: 15%;
         border-radius: 20px;
     }
 
@@ -340,7 +340,7 @@ input:hover {
     }
 
     #toucheA, #toucheB, #toucheC, #toucheD, #toucheE, #toucheF, #toucheG, #toucheH, #toucheI, #toucheJ, #toucheK, #toucheL, #toucheM, #toucheN, #toucheO, #toucheP, #toucheQ, #toucheR, #toucheS, #toucheT, #toucheU, #toucheV, #toucheW, #toucheX, #toucheY, #toucheZ, #NouvellePartie {
-        font-size: 35px;
+        font-size: 30px;
         width: 7.5%;
     } 
 
@@ -349,6 +349,6 @@ input:hover {
         height: 100%;
         box-shadow: 5px 5px 5px pink;
         border: inset 5px blueviolet;
-        font-size: 35px;
+        font-size: 30px;
     }
 }
