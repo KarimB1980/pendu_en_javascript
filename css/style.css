@@ -232,7 +232,7 @@ input:hover {
     }
 }
 
-@media (min-width: 321px) and (max-width: 767.5px) {
+@media (orientation: portrait) and (min-width: 321px) and (max-width: 767.5px) {
     #image {
         max-width: 30%;
         border-radius: 20px;
@@ -272,7 +272,7 @@ input:hover {
 }
 
 
-@media (max-width: 321px) {
+@media (orientation: portrait) and (max-width: 321px) {
     #image {
         max-width: 30%;
         border-radius: 20px;
@@ -350,5 +350,45 @@ input:hover {
         box-shadow: 5px 5px 5px pink;
         border: inset 5px blueviolet;
         font-size: 20px;
+    }
+}
+
+
+@media (orientation: portrait) and (min-width: 768px) and (max-width: 1100px) {
+    #image {
+        max-width: 30%;
+        border-radius: 20px;
+    }
+
+    img {
+        border-radius: 10px;
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    input:hover {
+        cursor: pointer;
+    }
+
+    #MotCache {
+        font-size: 55px;
+    }
+
+    #toucheA, #toucheB, #toucheC, #toucheD, #toucheE, #toucheF, #toucheG, #toucheH, #toucheI, #toucheJ, #toucheK, #toucheL, #toucheM, #toucheN, #toucheO, #toucheP, #toucheQ, #toucheR, #toucheS, #toucheT, #toucheU, #toucheV, #toucheW, #toucheX, #toucheY, #toucheZ, #NouvellePartie {
+        font-size: 60px;
+        width: 22%;
+    } 
+
+    #NouvellePartie {
+        width: 100%;
+        box-shadow: 5px 5px 5px pink;
+        border: inset 5px blueviolet;
     }
 }
