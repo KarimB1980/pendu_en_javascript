@@ -370,11 +370,10 @@ if (!document.fullscreenElement) {
 	});
 }
 
-document.addEventListener('click', function (event) {
-	if (!event.target.hasAttribute('pleinEcran')) return;
-	if (document.fullscreenElement) {
+function pleinEcran(){
+    if (document.fullscreenElement) {
 		document.exitFullscreen();
 	} else {
 		document.documentElement.requestFullscreen();
 	}
-}, false);
+}
